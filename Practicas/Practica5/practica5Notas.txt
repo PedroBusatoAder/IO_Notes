@@ -1,0 +1,27 @@
+Pequeño resumen previo a la practica 
+
+- Distribucion de Poisson --> Distribucion simetrica de variable aleatoria discreta
+Se utiliza para modelar la cantidad de eventos discretos en un intervalo de tiempo fijo. Por ejemplo, la cantidad de arribos por hora. 
+Utilizaremos su funcion de probabilidad puntual para hallar la probabilidad de que suceda una cierta cantidad de arribos en cierto intervalo de tiempo.
+
+El parametro lambda definira la frecuencia de ocurrencia de eventos media --> El promedio de eventos en el intervalo de tiempo
+
+- Distribucion Exponencial --> Distribucion simetrica de variable aleatoria continua
+Se utiliza modelar el tiempo que transcurre entre dos eventos de un proceso de Poisson
+De manera analoga al caso Poisson, la funcion de probabilidad nos indicara la probabilidad de que suceda cierto tiempo entre dos eventos de Poisson
+
+El parametro lambda definira la frecuencia de ocurrencia de eventos media --> El promedio de eventos en el intervalo de tiempo
+
+Estados, Eventos y Funcion de Transicion
+
+- Estado:
+El estado de un sistema es un vector de numeros o simbolos que describen completamente el estado de situacion del sistema en cada momento T
+
+- Eveto:
+En un sistema estocastico pueden ocurrir eventos de manera aleatoria, que alteraran el estado corriente del sistema
+
+- Funcion de Transicion:
+Determina cual sera el estado futuro, en base al estado actual y a los eventos que hayan ocurrido
+Podemos pensarla como una funcion que recibe dos inputs, el Estado Actual y cierto Evento, y devuelve como output el Estado al tiempo siguiente
+
+En ciertos sistemas, la simulacion termina si se cumplen ciertos requisitos. Es decir, si el Estado del sistema alcanza ciertos valores. 
