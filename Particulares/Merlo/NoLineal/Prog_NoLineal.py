@@ -23,6 +23,9 @@ seeds = [3,3]
 
 opt = optimize.minimize(fun = objFun, x0 = seeds, constraints = constraints)
 
+if (opt.success):
+    print(opt.x)
+
 
 # En picos hubiera sido:
 # x = picos.RealVariable('x', 2)
